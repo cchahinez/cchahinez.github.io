@@ -36,7 +36,7 @@ document.addEventListener('keyup', function (event) {
 
 //SHOW THE INFO MENU OF A PROJECT
     function showPlus(i){
-
+        headerMenu.style.display="none"
             let showInfo=document.querySelector("#info-"+i)
             if((showInfo.style.display === "none")|| (showInfo.style.display === ""))
             {showInfo.style.display="inline"}
@@ -48,6 +48,7 @@ document.addEventListener('keyup', function (event) {
                     showInfo.style.display="none"
                 }
             })
+
             }
 
 

@@ -8,13 +8,14 @@
         <title>PROJECT TRACKER</title>
     </head>
     <body>
+        
         <header id="headerSection">
             <div class="navBar">
                 <a href="index.html">
     
                     <img src="skaalab.png" alt="skaalab" id="logoIcon">
                      </a> 
-                     <a href="#" class="headerNavBar" id="showMeMenu" onclick="showMenu()" ondbclick="hideTwice()">Projet</a> 
+                     <button class="headerNavBar" onclick="showMenu()">Projet</button> 
                      <a class="headerNavBar" href="edition.html">Edition</a> 
                      <a class="headerNavBar" href="aide.html">Aide</a>
                      <a class="headerNavBar" href="aboutUs.html">A propos</a> 
@@ -23,24 +24,23 @@
             <button class="alertBtn"> <i class="fa-solid fa-bell"></i>   </button>              
             
         </header>
-     
     
     
-        <div class="headerMenu">
-            <button id="addPojectFromMenu" onclick="addingProject()">
-                Nouveau projet
-            </button>
-            <p id="keyboardPath">
-                CNTRL N
-            </p>
-        
-        </div>
-        
+       
+    <div class="headerMenu">
+        <button id="addPojectFromMenu" onclick="addingProject()">
+            Nouveau projet
+        </button>
+        <p id="keyboardPath">
+            CNTRL N
+        </p>
+    
+    </div>
+    
     <p id="warningMsg"> no documentation available</p>
 
     <script src="scripting.js">
 
     </script>
-
 </body>
 </html>

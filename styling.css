@@ -144,7 +144,8 @@ background-color: transparent;
 
 #title{
 font-size: medium;
-font-weight: 100;
+font-weight: bold;
+ 
 }
 .titeling{
     display: flex;
@@ -238,6 +239,7 @@ box-shadow :
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding : 17px 19px;
     
     
 }
@@ -391,6 +393,7 @@ li{
     color: brown;
     font-size: 11px;
     padding: 0px 8px;
+    margin-buttom: 5px;
 }
 
 .showInfo #modifyTitle{

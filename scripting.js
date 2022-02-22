@@ -11,7 +11,7 @@ var windowoc;
 
 var projectsList = document.querySelector("#projectsList")
 var savingData=[]
-
+localStorage.setItem('savingData',JSON.stringify('I'))
 
 var localstoragelist = JSON.parse(localStorage.getItem("savingData"))
 if(localstoragelist){

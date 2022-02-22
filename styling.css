@@ -369,7 +369,7 @@ box-shadow :
     width :150px;
     background-color: white;
     border :1px solide grey;
-    padding: 8px 7px;
+    padding: 13px 7px;
     display: none; 
     position: absolute;
     right:0;  
@@ -392,8 +392,8 @@ li{
     cursor: pointer;
     color: brown;
     font-size: 11px;
-    padding: 0px 8px;
-    margin-buttom: 10px;
+    padding: 3px 8px;
+   
 }
 
 .showInfo #modifyTitle{
